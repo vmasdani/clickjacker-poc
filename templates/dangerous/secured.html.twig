@@ -1,0 +1,16 @@
+This is the unsecured page.
+
+
+
+<div id="overlay" style="opacity:20%;background-color:grey;position:absolute;top:0;width:100vw;height:100vh">tst</div>
+
+<script>
+    console.log(document.getElementById('overlay'))
+   document.getElementById('overlay')?.addEventListener('click', () => {
+        window.location = '/jacker'
+   })
+</script>
+
+<iframe id="myjacker" src="/main-safe" style="height:100vh;width:100vw" />
+
+
